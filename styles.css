@@ -71,12 +71,6 @@ input{
 }
 /* Button */
 
-
-
-
-
-
-
   /* Links bottom */
   .fab{
     display: flex;
@@ -103,6 +97,62 @@ input{
 
 
 /* Media rules */
+
+@media screen and (max-width: 1030px){
+  .full-screen-video-content {
+    margin-top: 580px;
+    font-size: 90px;
+    text-align: center;
+  }
+  .h2{
+    margin: 15px 0 0;
+    text-align: center;
+  }
+  input{
+    font-size:40px;
+    border-radius: 20px;
+    padding:17px 60px 18px;
+    margin-top:85px;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .full-screen-video-content {
+    margin-top: 440px;
+    font-size: 70px;
+    text-align: center;
+  }
+  .h2{
+    margin: 15px 0 0;
+    font-size: 45px;
+    text-align: center;
+  }
+  input{
+    font-size:38px;
+    border-radius: 20px;
+    padding:17px 65px 18px;
+    margin-top:85px;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .full-screen-video-content {
+    margin-top: 320px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .h2{
+    margin: 15px 0 0;
+    font-size: 30px;
+    text-align: center;
+  }
+  input{
+    font-size:25px;
+    border-radius: 20px;
+    padding:17px 50px 18px;
+    margin-top:85px;
+  }
+}
 
 @media screen and (max-width: 420px){
   .full-screen-video-content {
